@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalROnionArchitecture.Application", "SignalROnionArchitecture.Application\SignalROnionArchitecture.Application.csproj", "{CF982B29-5BB5-4CED-BEC8-3273A8453FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalROnionArchitecture.Core", "SignalROnionArchitecture.Core\SignalROnionArchitecture.Core.csproj", "{E9C8F32F-A2D2-46FF-8AD0-AFB7CBB45364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalROnionArchitecture.Infrastructure", "SignalROnionArchitecture.Infrastructure\SignalROnionArchitecture.Infrastructure.csproj", "{101A1B3F-06B2-4EEC-8AFD-D442748F700B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalROnionArchitecture.Presentation", "SignalROnionArchitecture.Presentation\SignalROnionArchitecture.Presentation.csproj", "{353E9D87-89C7-4BC5-BE6E-3C27C9198081}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF982B29-5BB5-4CED-BEC8-3273A8453FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF982B29-5BB5-4CED-BEC8-3273A8453FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF982B29-5BB5-4CED-BEC8-3273A8453FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF982B29-5BB5-4CED-BEC8-3273A8453FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C8F32F-A2D2-46FF-8AD0-AFB7CBB45364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C8F32F-A2D2-46FF-8AD0-AFB7CBB45364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C8F32F-A2D2-46FF-8AD0-AFB7CBB45364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C8F32F-A2D2-46FF-8AD0-AFB7CBB45364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101A1B3F-06B2-4EEC-8AFD-D442748F700B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101A1B3F-06B2-4EEC-8AFD-D442748F700B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101A1B3F-06B2-4EEC-8AFD-D442748F700B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101A1B3F-06B2-4EEC-8AFD-D442748F700B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353E9D87-89C7-4BC5-BE6E-3C27C9198081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353E9D87-89C7-4BC5-BE6E-3C27C9198081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353E9D87-89C7-4BC5-BE6E-3C27C9198081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353E9D87-89C7-4BC5-BE6E-3C27C9198081}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

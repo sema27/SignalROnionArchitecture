@@ -1,0 +1,18 @@
+﻿using SignalROnionArchitecture.Application;
+using SignalROnionArchitecture.Core.Entities;
+using SignalROnionArchitecture.Infrastructure.Repositories;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SignalROnionArchitecture.Infrastructure.EntityFramework
+{
+    public class EfSliderDal : GenericRepository<Slider>, ISliderDal
+    {
+        public EfSliderDal(ApplicationDbContext context) : base(context)
+        {
+        }
+    }
+}

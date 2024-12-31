@@ -1,0 +1,686 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\colorlib-error-404-16\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\colorlib-error-404-16\css\style.css" />
+    <Content Remove="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.eot" />
+    <Content Remove="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.svg" />
+    <Content Remove="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.ttf" />
+    <Content Remove="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.woff" />
+    <Content Remove="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.woff2" />
+    <Content Remove="wwwroot\colorlib-error-404-16\fonts\FontAwesome.otf" />
+    <Content Remove="wwwroot\colorlib-error-404-16\img\bg.jpg" />
+    <Content Remove="wwwroot\colorlib-error-404-16\index.html" />
+    <Content Remove="wwwroot\colorlib-error-404-16\readme.txt" />
+    <Content Remove="wwwroot\colorlib-error-404-7\css\style.css" />
+    <Content Remove="wwwroot\colorlib-error-404-7\index.html" />
+    <Content Remove="wwwroot\colorlib-error-404-7\readme.txt" />
+    <Content Remove="wwwroot\colorlib-regform-32\css\nunito-font.css" />
+    <Content Remove="wwwroot\colorlib-regform-32\css\style.css" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Black.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-BlackItalic.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Bold.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-BoldItalic.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraBold.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraBoldItalic.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraLight.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraLightItalic.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Italic.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Light.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-LightItalic.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Regular.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-SemiBold.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-SemiBoldItalic.ttf" />
+    <Content Remove="wwwroot\colorlib-regform-32\fonts\Nunito\OFL.txt" />
+    <Content Remove="wwwroot\colorlib-regform-32\images\form-v6.jpg" />
+    <Content Remove="wwwroot\colorlib-regform-32\images\Pizza.jpg" />
+    <Content Remove="wwwroot\colorlib-regform-32\images\Pizza1.jpg" />
+    <Content Remove="wwwroot\colorlib-regform-32\images\Sauce1.jpg" />
+    <Content Remove="wwwroot\colorlib-regform-32\index.html" />
+    <Content Remove="wwwroot\colorlib-regform-32\readme.txt" />
+    <Content Remove="wwwroot\css\site.css" />
+    <Content Remove="wwwroot\favicon.ico" />
+    <Content Remove="wwwroot\feane-1.0.0\about.html" />
+    <Content Remove="wwwroot\feane-1.0.0\book.html" />
+    <Content Remove="wwwroot\feane-1.0.0\css\bootstrap.css" />
+    <Content Remove="wwwroot\feane-1.0.0\css\font-awesome.min.css" />
+    <Content Remove="wwwroot\feane-1.0.0\css\responsive.css" />
+    <Content Remove="wwwroot\feane-1.0.0\css\style.css" />
+    <Content Remove="wwwroot\feane-1.0.0\css\style.css.map" />
+    <Content Remove="wwwroot\feane-1.0.0\css\style.scss" />
+    <Content Remove="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.ttf" />
+    <Content Remove="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.woff" />
+    <Content Remove="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.woff2" />
+    <Content Remove="wwwroot\feane-1.0.0\images\about-img.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\client1.jpg" />
+    <Content Remove="wwwroot\feane-1.0.0\images\client2.jpg" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f1.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f10.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f11.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f12.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f13.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f14.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f2.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f3.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f4.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f5.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f6.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f7.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f8.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\f9.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\favicon.png" />
+    <Content Remove="wwwroot\feane-1.0.0\images\hero-bg.jpg" />
+    <Content Remove="wwwroot\feane-1.0.0\images\o1.jpg" />
+    <Content Remove="wwwroot\feane-1.0.0\images\o2.jpg" />
+    <Content Remove="wwwroot\feane-1.0.0\index.html" />
+    <Content Remove="wwwroot\feane-1.0.0\js\bootstrap.js" />
+    <Content Remove="wwwroot\feane-1.0.0\js\custom.js" />
+    <Content Remove="wwwroot\feane-1.0.0\js\jquery-3.4.1.min.js" />
+    <Content Remove="wwwroot\feane-1.0.0\menu.html" />
+    <Content Remove="wwwroot\js\chat.js" />
+    <Content Remove="wwwroot\js\site.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Remove="wwwroot\lib\bootstrap\LICENSE" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Remove="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Remove="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <Content Remove="wwwroot\lib\jquery\LICENSE.txt" />
+    <Content Remove="wwwroot\microsoft\desktop.ini" />
+    <Content Remove="wwwroot\microsoft\signalr\dist\browser\signalr.js" />
+    <Content Remove="wwwroot\microsoft\signalr\dist\browser\signalr.js.map" />
+    <Content Remove="wwwroot\microsoft\signalr\dist\browser\signalr.min.js" />
+    <Content Remove="wwwroot\microsoft\signalr\dist\browser\signalr.min.js.map" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\demo.css" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\ready.css" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\ready.css.map" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\ready.min.css" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.eot" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.svg" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.ttf" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.woff" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.woff2" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\menu.png" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\menu2.png" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\profile.jpg" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\profile2.jpg" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\core\bootstrap.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\core\jquery.3.2.1.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\core\popper.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\demo.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\bootstrap-notify\bootstrap-notify.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\bootstrap-toggle\bootstrap-toggle.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\chart-circle\circles.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\chartist\chartist.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\chartist\plugin\chartist-plugin-tooltip.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\jquery.mapael.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\france_departments.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\france_departments.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\README.txt" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\usa_states.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\usa_states.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_mercator.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_mercator.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_miller.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_miller.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-scrollbar\jquery.scrollbar.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-ui-1.12.1.custom\jquery-ui.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\ready.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\ready.min.js" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_alerts.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_badges.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_buttons.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_cards.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_charts.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_dropdowns.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_inputs.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_maps.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_modals.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_navbars.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_navpills.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_navsearch.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_paginations.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_sliders.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_tables.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_chartist.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_jqueryscrollbar.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_jqueryui.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_toggle.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_background.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_components.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_layouts.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_line-awesome.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_outlinefocus.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_plugins.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_responsive.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_typography.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_variables.scss" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\components.html" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\forms.html" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\icons.html" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\index.html" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\LICENSE" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\notifications.html" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\README.md" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\tables.html" />
+    <Content Remove="wwwroot\Ready-Bootstrap-Dashboard-master\typography.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\colorlib-error-404-16\css\font-awesome.min.css" />
+    <None Include="wwwroot\colorlib-error-404-16\css\style.css" />
+    <None Include="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\colorlib-error-404-16\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\colorlib-error-404-16\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\colorlib-error-404-16\img\bg.jpg" />
+    <None Include="wwwroot\colorlib-error-404-16\index.html" />
+    <None Include="wwwroot\colorlib-error-404-16\readme.txt" />
+    <None Include="wwwroot\colorlib-error-404-7\css\style.css" />
+    <None Include="wwwroot\colorlib-error-404-7\index.html" />
+    <None Include="wwwroot\colorlib-error-404-7\readme.txt" />
+    <None Include="wwwroot\colorlib-regform-32\css\nunito-font.css" />
+    <None Include="wwwroot\colorlib-regform-32\css\style.css" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Black.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-BlackItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Bold.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-BoldItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraBold.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraBoldItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraLight.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-ExtraLightItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Italic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Light.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-LightItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-Regular.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-SemiBold.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\Nunito-SemiBoldItalic.ttf" />
+    <None Include="wwwroot\colorlib-regform-32\fonts\Nunito\OFL.txt" />
+    <None Include="wwwroot\colorlib-regform-32\images\form-v6.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\images\Pizza.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\images\Pizza1.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\images\Sauce1.jpg" />
+    <None Include="wwwroot\colorlib-regform-32\index.html" />
+    <None Include="wwwroot\colorlib-regform-32\readme.txt" />
+    <None Include="wwwroot\css\site.css" />
+    <None Include="wwwroot\favicon.ico" />
+    <None Include="wwwroot\feane-1.0.0\about.html" />
+    <None Include="wwwroot\feane-1.0.0\book.html" />
+    <None Include="wwwroot\feane-1.0.0\css\bootstrap.css" />
+    <None Include="wwwroot\feane-1.0.0\css\font-awesome.min.css" />
+    <None Include="wwwroot\feane-1.0.0\css\responsive.css" />
+    <None Include="wwwroot\feane-1.0.0\css\style.css" />
+    <None Include="wwwroot\feane-1.0.0\css\style.css.map" />
+    <None Include="wwwroot\feane-1.0.0\css\style.scss" />
+    <None Include="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\feane-1.0.0\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\feane-1.0.0\images\about-img.png" />
+    <None Include="wwwroot\feane-1.0.0\images\client1.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\client2.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\f1.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f10.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f11.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f12.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f13.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f14.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f2.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f3.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f4.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f5.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f6.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f7.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f8.png" />
+    <None Include="wwwroot\feane-1.0.0\images\f9.png" />
+    <None Include="wwwroot\feane-1.0.0\images\favicon.png" />
+    <None Include="wwwroot\feane-1.0.0\images\hero-bg.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\o1.jpg" />
+    <None Include="wwwroot\feane-1.0.0\images\o2.jpg" />
+    <None Include="wwwroot\feane-1.0.0\index.html" />
+    <None Include="wwwroot\feane-1.0.0\js\bootstrap.js" />
+    <None Include="wwwroot\feane-1.0.0\js\custom.js" />
+    <None Include="wwwroot\feane-1.0.0\js\jquery-3.4.1.min.js" />
+    <None Include="wwwroot\feane-1.0.0\menu.html" />
+    <None Include="wwwroot\js\chat.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <None Include="wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <None Include="wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
+    <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="wwwroot\lib\jquery\LICENSE.txt" />
+    <None Include="wwwroot\microsoft\desktop.ini" />
+    <None Include="wwwroot\microsoft\signalr\dist\browser\signalr.js" />
+    <None Include="wwwroot\microsoft\signalr\dist\browser\signalr.js.map" />
+    <None Include="wwwroot\microsoft\signalr\dist\browser\signalr.min.js" />
+    <None Include="wwwroot\microsoft\signalr\dist\browser\signalr.min.js.map" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\.DS_Store" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\bootstrap.min.css" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\demo.css" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\ready.css" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\ready.css.map" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\css\ready.min.css" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.eot" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.svg" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.ttf" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.woff" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\fonts\line-awesome.woff2" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\menu.png" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\menu2.png" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\profile.jpg" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\img\profile2.jpg" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\core\bootstrap.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\core\jquery.3.2.1.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\core\popper.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\demo.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\bootstrap-notify\bootstrap-notify.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\bootstrap-toggle\bootstrap-toggle.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\chart-circle\circles.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\chartist\chartist.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\chartist\plugin\chartist-plugin-tooltip.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\jquery.mapael.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\france_departments.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\france_departments.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\README.txt" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\usa_states.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\usa_states.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_mercator.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_mercator.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_miller.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-mapael\maps\world_countries_miller.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-scrollbar\jquery.scrollbar.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\plugin\jquery-ui-1.12.1.custom\jquery-ui.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\ready.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\js\ready.min.js" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_alerts.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_badges.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_buttons.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_cards.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_charts.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_dropdowns.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_inputs.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_maps.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_modals.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_navbars.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_navpills.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_navsearch.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_paginations.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_sliders.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\components\_tables.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_chartist.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_jqueryscrollbar.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_jqueryui.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\plugins\_toggle.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_background.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_components.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_layouts.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_line-awesome.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_outlinefocus.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_plugins.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_responsive.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_typography.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\assets\sass\ready\_variables.scss" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\components.html" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\forms.html" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\icons.html" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\index.html" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\LICENSE" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\notifications.html" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\README.md" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\tables.html" />
+    <None Include="wwwroot\Ready-Bootstrap-Dashboard-master\typography.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Home\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Home\Privacy.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Login\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Mail\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\MenuTables\CreateMenuTable.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\MenuTables\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\MenuTables\TableListByStatus.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\MenuTables\UpdateMenuTable.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Menu\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Message\ClientUserCount.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Message\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Notifications\CreateNotification.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Notifications\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Notifications\UpdateNotification.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Product\CreateProduct.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Product\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Product\UpdateProduct.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\ProgressBars\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\QRCode\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Register\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Setting\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_DefaultAboutComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_DefaultBookATableComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_DefaultOfferComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_DefaultOurMenuComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_DefaultSliderComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_DefaultTestimonialComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_LayoutFooterPartialComponent\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_LayoutHeaderPartialComponent\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_LayoutNavbarPartialComponent\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_LayoutScriptPartialComponent\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_LayoutSidebarPartialComponent\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_MenuCategoryFilterComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_MenuNavbarComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_UILayoutFooterComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_UILayoutHeadComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_UILayoutNavbarComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_UILayoutScriptComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Components\_UILayoutSocialMediaComponentPartial\Default.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\Error.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_Layout.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Shared\_ValidationScriptsPartial.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SignalRDefault\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SignalRDefault\Index2.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Slider\CreateSlider.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Slider\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Slider\UpdateSlider.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SocialMedia\CreateSocialMedia.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SocialMedia\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\SocialMedia\UpdateSocialMedia.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Statistic\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Testimonial\CreateTestimonial.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Testimonial\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\Testimonial\UpdateTestimonial.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\UILayout\Index.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\ViewComponents\Properties\launchSettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewImports.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Update="Views\_ViewStart.cshtml">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
